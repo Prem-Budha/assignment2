@@ -14,8 +14,8 @@ public class project7 {
 
         System.out.println("The multiple of " + num + " is ");
         for (int i = 1 ; i <= 10 ; i++ ){
-            int sum = num * i;
-            System.out.println(num +" x " + i + " is " + sum);
+            int mul = num * i;
+            System.out.println(num +" x " + i + " is " + mul);
         }
     }
 }

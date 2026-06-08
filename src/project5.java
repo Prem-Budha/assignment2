@@ -20,7 +20,7 @@ public class project5 {
         if (num <= 1) {
             isPrime = false; // 0 and 1 are not prime
         } else {
-            for (int i = 2; i <= Math.sqrt(num); i++) {
+            for (int i = 2; i <= num/2; i++) {
                 if (num % i == 0) {
                     isPrime = false;
                     break;

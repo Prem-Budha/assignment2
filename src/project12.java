@@ -14,14 +14,14 @@ public class project12 {
         System.out.print("Enter marks for Computer Organization (CO): ");
         int co = sc.nextInt();
 
-        System.out.print("Enter marks for Open Elective (OE): ");
-        int oe = sc.nextInt();
+        System.out.print("Enter marks for Computer Ethices (CE): ");
+        int ce = sc.nextInt();
 
         System.out.print("Enter marks for Object-Oriented Programming (OOP): ");
         int oop = sc.nextInt();
 
 
-        double average = (os + dcn + co + oe + oop) / 5.0;
+        double average = (os + dcn + co + ce + oop) / 5.0;
 
 
         String grade = (average >= 80) ? "A"

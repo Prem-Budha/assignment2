@@ -13,7 +13,7 @@ public class project3 {
         int totalstep=0;
         int higheststep =0;
 
-        for(int i=1; i < 7;i++) {
+        for(int i=1; i <= 7;i++) {
 
             System.out.print("Enter your step in Day" + i +" :");
             int currentstep = input.nextInt();
